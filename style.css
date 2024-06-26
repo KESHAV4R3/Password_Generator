@@ -33,7 +33,7 @@ body {
 .content {
     padding: 10px;
     width: 90%;
-    min-width: 270px;
+    min-width: 343px;
     max-width: 430px;
 }
 
@@ -60,10 +60,14 @@ h1 {
     padding: 1.15rem 1rem;
     color: var(--vb-yellow);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 30px;
     letter-spacing: 1px;
     border: none;
+}
+
+.password_display:focus{
+    outline: none;
 }
 
 .password_display::placeholder {
@@ -250,7 +254,7 @@ label {
     }
 
     .password_display {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .password_display::placeholder {
